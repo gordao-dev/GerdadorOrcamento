@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buffet</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>GERADOR DE ORÇAMENTOS</h1>
+        <p>Preencha as infomrmações necessárias.</p>
+        <br>
+    </div>
+
+    <form>
+        <div>
+            <label>Nome</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <br>
+        <div>
+            <label>Data do evento</label>
+            <input type="date" name="data do evento" id="data do evento">
+        </div>
+        <br>
+        <div>
+            <label>Número de convidados</label>
+            <input type="number" name="numero de convidados" id="numero de convidados">
+        </div>
+        <br>
+
+        <div>
+            <label>Qual o cardápio para este cliente?</label>
+            <br><br>
+            <label>
+                <input type="radio" name="padrao do cliente" value="bronze">Cardápio bronze
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="padrao do cliente" value="prata">Cardápio prata
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="padrao do cliente" value="ouro">Cardápio ouro
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>Local do evento</label>
+            <input type="text" name="local" id="local">
+        </div>
+        <br>
+        <div>
+            <label>Qual o tipo de evento?</label>
+            <input type="text" name="tipo de evento" id="tipo">
+        </div>
+        <br>
+        <div>
+            <label>Selecione os opcionais do evento</label><br><br>
+            <input type="checkbox" id="opcional1" name="opcional1" value="mesa de café">
+            <label for="opcional1">Mesa de café</label>
+            <input type="checkbox" id="opcional2" name="opcional2" value="Cantinho mineiro">
+            <label for="opcional2">Cantinho mineiro</label>
+            <input type="checkbox" id="opcional3" name="opcional3" value="Mesa de guloseimas">
+            <label for="opcional3">Mesa de guloseimas</label>
+        </div>
+        <br>
+
+        <button type="submit">Gerar Orçamento</button>
+
+        <form>
+
+</body>
+
+</html>
