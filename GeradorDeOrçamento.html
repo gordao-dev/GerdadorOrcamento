@@ -1,4 +1,4 @@
-/<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -24,7 +24,7 @@
         <br>
         <div>
             <label>Data do evento</label>
-            <input type="date" name="data do evento" id="data do evento">
+            <input type="date" name="data do evento" id="data_do_evento">
         </div>
         <br>
         <div>
@@ -33,21 +33,22 @@
         </div>
         <br>
 
-        <div>
-            <label>Qual o cardápio para este cliente?</label>
-            <br><br>
-            <label>
-                <input type="radio" name="padraoCliente" value="bronze">Cardápio bronze
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="padraoCliente" value="prata">Cardápio prata
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="padraoCliente" value="ouro">Cardápio ouro
-            </label>
-        </div>
+        <html>
+    <body>
+    <div id="container">
+    <p>Qual tipo de cardapio?</p>
+    <div>
+        <input type="radio" id="ouro" name="contact" value="ouro">
+        <label for="ouro">Cardapio ouro</label>
+ 
+        <input type="radio" id="prata" name="contact" value="prata">
+        <label for="prata">Cardapio prata</label>
+ 
+        <input type="radio" id="bronze" name="contact" value="bronze">
+        <label for="bronze">Cardapio bronze</label>
+    </body>
+    <br>
+</html>
         <br>
         <div>
             <label>Local do evento</label>
@@ -69,8 +70,9 @@
             <label for="opcional3">Mesa de guloseimas</label>
         </div>
 
+        <br>
 
-        <button type="submit">Gerar Orçamento</button>
+        <button type="submit" id="gerar">Gerar orçamento</button>
         
     </form>    
         
